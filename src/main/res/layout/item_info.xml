@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white">
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="154dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/item"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="178dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/item"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/subtractQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/subtract"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/light_blue" />
+
+        <TextView
+            android:id="@+id/addItemQuantity"
+            android:layout_width="85dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:text="1"
+            android:textColor="@color/dark_blue"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/addQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:textSize="25sp"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/light_blue"  />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:text="@string/description"
+        android:textSize="25sp"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Delete Item"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/light_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

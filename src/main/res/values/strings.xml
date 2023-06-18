@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Inventory Application</string>
+    <string name="inventory_app">Inventory App</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="create_user">Create User</string>
+    <string name="new_username">New Username</string>
+    <string name="create_password">Create Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="subtract">-</string>
+    <string name="add">+</string>
+    <string name="description">Description</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_item">Add Item</string>
+    <string name="item">Item</string>
+    <string name="floating_action_button">Floating Action Button</string>
+    <string name="request_permission">Request Permission</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="phone_number">Phone Number</string>
+</resources>
